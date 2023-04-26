@@ -2252,15 +2252,15 @@ writeAutoexec ()
     echo "#1600x1200 60fps" >> $OUTFILE
     echo "writew 0xC05C2092 $BIT" >> $OUTFILE
     echo "#1920x1080 24fps" >> $OUTFILE
-    echo "writew 0xC05C2482 $BIT" >> $OUTFILE
+    echo "writew 0xC05CC492 $BIT" >> $OUTFILE
     echo "#1920x1080 30fps" >> $OUTFILE    
-    echo "writew 0xC05C1F72 $BIT" >> $OUTFILE
+    echo "writew 0xC05CBF82 $BIT" >> $OUTFILE
     echo "#1920x1080 48fps" >> $OUTFILE   
-    echo "writew 0xC05C2452 $BIT" >> $OUTFILE
+    echo "writew 0xC05CC462 $BIT" >> $OUTFILE
     echo "#1920x1080 60fps" >> $OUTFILE  
-    echo "writew 0xC05C1EE2 $BIT" >> $OUTFILE
+    echo "writew 0xC05CBEF2 $BIT" >> $OUTFILE
     echo "#2304x1296 30fps" >> $OUTFILE
-    echo "writew 0xC05C1EB2 $BIT" >> $OUTFILE
+    echo "writew 0xC05CBEB2 $BIT" >> $OUTFILE
     echo "" >> $OUTFILE
   fi
 
